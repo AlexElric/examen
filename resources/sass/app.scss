@@ -1,0 +1,32 @@
+.uno-arriba {
+	margin-top: 1rem;
+}
+.dos-arriba {
+	margin-top: 2rem;
+}
+
+.form-examen {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 2rem;
+	padding-bottom: 6rem;
+	div {
+		width: 49%;
+		margin-bottom: 1rem;
+	}
+	label {
+		color: black;
+		font-weight: 600;
+	}
+	input[type="checkbox"] {
+		position: relative !important;
+	    opacity: 1 !important;
+	    pointer-events: initial !important;
+	    display: block;
+	    margin-top: 6px;
+	}
+}
+select {
+	display: block;
+}
